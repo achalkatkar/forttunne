@@ -204,7 +204,7 @@
 }
 
 .hero {
-  background: url('../images/MAM-IMG-BG.jpg') no-repeat center center/cover;
+  /*background: url('../images/MAM-IMG-BG.jpg') no-repeat center center/cover;*/
   height: 70vh;
   display: flex;
   justify-content: center;
