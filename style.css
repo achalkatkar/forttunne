@@ -1,50 +1,36 @@
 /* navbar section start */
-
-.navbar {
-      background-color: #111;
-      position: sticky;
-      top: 0;
-      z-index: 1020;
-    }
-    .navbar-brand img {
-      height: 40px;
-      margin-right: 10px;
-    }
-    .navbar-nav .nav-link {
-      color: #fff;
-      margin: 0 10px;
-      transition: color 0.3s ease;
-    }
-    .navbar-nav .nav-link:hover {
-      color: #ff6600;
-    }
-    .phone-number {
-      color: #ffcc00;
+ .navbar-brand {
       font-weight: bold;
-    }
-    @media (max-width: 991.98px) {
-      .navbar-collapse {
-        text-align: center;
-      }
-      .phone-number {
-        display: block;
-        margin-top: 10px;
-      }
+      display: flex;
+      align-items: center;
+      gap: 5px;
     }
 
-/* navbar section end */
+    .call-text {
+      white-space: nowrap;
+    }
+    .item:hover{
+       color: orangered;
+    }
+    .logo-img{
+        border-radius: 50%;
+    }
 
-/* logo forttunne  start */
-
-
-
+    @media (max-width: 768px) {
+      .call-text {
+        font-size: 14px;
+      }
+    }
+    
 .wave-text {
   display: flex;
-  font-size: 30px;
+  font-size: 35px;
+  font-weight: bold;
   font-family: 'Comic Sans MS', cursive;
 }
 .wave-text .wave-color{
   color: white;
+  
 }
 
 .wave-text span {
@@ -75,7 +61,7 @@
   100% { transform: translateY(0); }
 }
 
-/* logo forttunne  end */
+/* navbar section end */
 
 
 /* background mam-img section start */
